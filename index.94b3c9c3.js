@@ -1,0 +1,2 @@
+var t=document.querySelector(".spider"),e=t.parentElement,n=t.getBoundingClientRect();function i(t,e,n,i,c){var r="x"===i?t.offsetWidth:t.offsetHeight,l="x"===i?n.clientWidth:n.clientHeight,o="x"===i?"left":"top";if(c<e+r/2){t.style[o]=0;return}if(c>e+l-r){t.style[o]="".concat(l-r,"px");return}t.style[o]="".concat(c-e-r/2,"px")}document.addEventListener("click",function(c){if(c.target===e){var r=c.clientX,l=c.clientY;i(t,n.x,e,"x",r),i(t,n.y,e,"y",l)}});
+//# sourceMappingURL=index.94b3c9c3.js.map
